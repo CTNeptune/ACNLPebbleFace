@@ -1,0 +1,49 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Thomas Neptune",
+    "longName": "Animal Crossing: New Leaf Watch Face",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/mori_dougu_leaf.png",
+                "menuIcon": true,
+                "name": "ICON",
+                "type": "png"
+            },
+            {
+                "file": "fonts/Arial Rounded MT Bold Bold.ttf",
+                "name": "FACE_FONT_28",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Arial Rounded MT Bold Bold.ttf",
+                "name": "FACE_FONT_32",
+                "type": "font"
+            },
+            {
+                "file": "fonts/Arial Rounded MT Bold Bold.ttf",
+                "name": "FACE_FONT_18",
+                "type": "font"
+            },
+            {
+                "file": "images/acWatchBG.png",
+                "name": "FACE_BG",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "AC:NL Watch Face",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "1ce9e9e2-b2e8-4054-8f70-0e10cf41408a",
+    "versionLabel": "1.4",
+    "watchapp": {
+        "watchface": true
+    }
+}
