@@ -1,0 +1,108 @@
+{
+    "author": "Thomas Neptune",
+    "dependencies": {},
+    "keywords": [],
+    "name": "ac-nl-watch-face",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Animal Crossing: New Leaf Watch Face",
+        "enableMultiJS": false,
+        "messageKeys": {
+            "KEY_BG": 0
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/ac_bg_winter_round.png",
+                    "name": "BG_WINTER_ROUND",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ac_bg_summer_round.png",
+                    "name": "BG_SUMMER_ROUND",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ac_bg_autumn_round.png",
+                    "name": "BG_AUTUMN_ROUND",
+                    "targetPlatforms": [
+                        "chalk"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ac_bg_og.png",
+                    "name": "BG_ORIGINAL",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/mori_dougu_leaf.png",
+                    "menuIcon": true,
+                    "name": "ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ac_bg_summer.png",
+                    "name": "BG_SUMMER",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ac_bg_winter.png",
+                    "name": "BG_WINTER",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/ac_bg_autumn.png",
+                    "name": "BG_AUTUMN",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "fonts/Arial Rounded MT Bold Bold.ttf",
+                    "name": "FACE_FONT_28",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Arial Rounded MT Bold Bold.ttf",
+                    "name": "FACE_FONT_32",
+                    "type": "font"
+                },
+                {
+                    "file": "fonts/Arial Rounded MT Bold Bold.ttf",
+                    "name": "FACE_FONT_18",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "1ce9e9e2-b2e8-4054-8f70-0e10cf41408a",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.91.0"
+}
